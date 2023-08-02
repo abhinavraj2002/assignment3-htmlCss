@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./assets/img\ 9.jfif);
+    background-size: cover;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    
+}
+.list{
+    display: flex;
+    gap: 30px;
+    font-weight: 800;
+    color: white;
+    list-style: none;
+    margin-top: 18px;
+    margin-right: 500px;
+}
+
+.nav-btn{
+    background-color: purple;
+    color: white;
+    margin: 20px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 72px;
+  
+}
+
+.nav-btn-large{
+    background-color: purple;
+    color: white;
+    margin: 20px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 100px;
+
+}
+.banner-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+.heading{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+}
+.description{
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+}
+.logo{
+    margin-top: 10px;
+}
